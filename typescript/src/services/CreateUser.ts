@@ -12,6 +12,7 @@ interface CreateUserData {
   email: string;
   password: string;
   techs: Array< string | TechObject >;
+  // techs: string[];
 }
 
 export default function createUser({ name = '', email, password }: CreateUserData) {
